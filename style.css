@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica','Arial','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'sans-serif;
+  margin: 0;
+  width: 100%;
+  color: rgba( 0, 0, 0, 0.7);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 10px 10px #f7f7f7;
+  background: white;
+  z-index: 99;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1250px;
+  height: 100px;
+}
+
+header .container .header-left {
+  display: flex;
+}
+
+header .container .header-left a {
+  text-decoration: none;
+}
+
+header .container .header-left img {
+  height: 75px;
+  margin: 15px 0px 0px 20px;
+  /* color: #043c78; */
+  /* font-family: Archcoco; */
+}
+
+header .container .header-left h1 {
+  font-size: 30px;
+  margin: 42px 0px 0px 15px;
+  font-weight: normal;
+  color: rgba( 0, 0, 0, 0.5);
+  white-space: nowrap;
+  }
+
+header .container .header-right ul {
+  display: flex;
+  list-style: none;
+  line-height: 100px;
+  margin: 18px 35px 0 0;
+  color: rgba( 0, 0, 0, 0.5);
+}
+
+header .container .header-right li {
+  padding: 0 0 0 25px;
+}
+
+div.blank {
+  height: 150px;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+.container {
+  margin: 0 40px 50px 40px;
+}
+
+.lead-wrapper {
+  font-family: 'ＭＳ 明朝', 'MS Mincho','ヒラギノ明朝 ProN','Hiragino Mincho ProN','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+.lead-wrapper h1 {
+  font-size: 40px;
+  font-weight: normal;
+  padding: 0 0 20px 0;
+}
+
+.lead-wrapper p {
+  font-size: 17px;
+  padding: 10px 0 0 0;
+}
+
+.lead-wrapper p.last {
+  padding: 20px 0 0 0;
+}
+
+.works-wrapper h1 {
+  font-size: 25px;
+  padding: 0 0 2px 0;
+  font-weight: normal;
+  border-bottom: solid 3px #043c78;
+  width: 95px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work1 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.work2 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.work3 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.work4 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.work5 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.work6 {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background: gray;
+}
+
+.profile-wrapper {
+  display: flex;
+}
+
+.profile-wrapper .image img {
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px 0 0 0;
+}
+
+.profile-wrapper .content {
+  margin: 0 0 0 30px;
+}
+
+footer {
+    width: 100%;
+
+  height: 100px;
+  background: #f7f7f7;
+}
+
